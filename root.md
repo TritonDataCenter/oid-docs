@@ -24,6 +24,9 @@ UFDS update checkpoint request
 ### 1.3.6.1.4.1.38678.1.1.6
 UFDS update checkpoint response
 
+### 1.3.6.1.4.1.38678.1.1.7
+Request ID hint
+
 ## 1.3.6.1.4.1.38678.1.2
 LDAP attributes
 
