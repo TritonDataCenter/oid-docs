@@ -38,7 +38,19 @@ UFDS update checkpoint response
 Request ID hint
 
 ## 1.3.6.1.4.1.38678.1.2
-LDAP attributes
+LDAP/X.509 attribute types
 
 ## 1.3.6.1.4.1.38678.1.3
 LDAP ObjectClasses
+
+## 1.3.6.1.4.1.38678.1.4
+extKeyPurposes for X.509. Used to restrict usage of keys + certificates used
+for TLS client auth with Joyent services.
+
+### 1.3.6.1.4.1.38678.1.4.1
+Marks a certificate only for use with `sdc-docker`. MUST not be combined with
+any other extKeyPurpose OIDs.
+
+### 1.3.6.1.4.1.38678.1.4.2
+Marks a certificate only for use with `cmon`. MUST not be combined with
+any other extKeyPurpose OIDs.
